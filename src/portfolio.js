@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Malaviya National Institute of Technology (MNIT) Jaipur",
-      logo: require("./assets/images/mnitLogo.png"),
+      logo: require("./assets/images/harvardLogo.png"),
       subHeader: "B.Tech in Artificial Intelligence",
       duration: "2022 - Present",
       desc: "3rd Year | Focused on Systems thinking, DSA, Cloud Infrastructure, and Distributed Systems",
