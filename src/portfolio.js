@@ -260,9 +260,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "2nd Place — Capture The Flag Competition",
+      title: "2nd Place — Capture The Flag (CTF)",
       subtitle:
-        "Infosec Club, Sphinx Fest. Built and deployed multiple cloud-hosted applications independently.",
+        "Secured 2nd position in the CTF organized by Infosec Club at Sphinx Fest, MNIT Jaipur. Demonstrated expertise in cybersecurity, vulnerability assessment, and problem-solving.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "CTF Achievement",
       footerLink: [
