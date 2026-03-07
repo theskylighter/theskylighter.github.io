@@ -26,7 +26,7 @@ const greeting = {
     "Systems-Oriented Software Engineer 🚀 | AI Undergraduate at MNIT Jaipur. I enjoy breaking systems, understanding how they work internally, and rebuilding them better. Currently focused on DSA for SDE roles while actively exploring Cloud Infrastructure, Networking, and Distributed Systems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1jqw1eNX1UNUNEVb96B4fL_RZ6s/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jqw1eNX1UNU-Hxco5NEVb96B4fL_RZ6s/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -125,13 +125,13 @@ const educationInfo = {
       schoolName: "Malaviya National Institute of Technology (MNIT) Jaipur",
       logo: require("./assets/images/MNIT.png"),
       subHeader: "B.Tech in Artificial Intelligence",
-      duration: "2022 - Present",
-      desc: "3rd Year | Focused on Systems thinking, DSA, Cloud Infrastructure, and Distributed Systems",
+      duration: "2023 - Present",
+      desc: "3rd Year",
       descBullets: [
-        "Advanced Data Structures & Algorithms (C++)",
+        "Data Structures & Algorithms (C++)",
         "System Design fundamentals",
         "Cloud & Infrastructure exploration (Azure, Linux, Docker)",
-        "Networking fundamentals (TCP/UDP, IP addressing, Socket programming)"
+        "Networking fundamentals"
       ]
     }
   ]
@@ -265,19 +265,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Solo Technical Explorer",
-      subtitle:
-        "Independent projects in NAS setup, self-hosting, Azure cloud deployment, and distributed systems experimentation.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Technical Achievement",
-      footerLink: [
-        {
-          name: "Portfolio Projects",
-          url: ""
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -350,7 +337,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "", //Replace "twitter" with your twitter username without @
+  userName: "shivam08024584", //Replace "twitter" with your twitter username without @
   display: false // Set true to display this section, defaults to false
 };
 
