@@ -229,6 +229,28 @@ const projectSections = [
       "ADDITIONAL PROJECTS ACROSS INFRASTRUCTURE, NETWORKING, AND CORE COMPUTER SCIENCE",
     projects: [
       {
+        projectName: "MNIT Captive Portal Auto Login Script (Cross-Platform)",
+        projectDesc:
+          "Developed a cross-platform automation tool to automatically authenticate to the MNIT campus captive portal after periodic network resets. Reverse engineered the authentication flow using Burp Suite, replaced browser automation with lightweight Python HTTP requests, and used `curl`-based connectivity checks to trigger automatic re-authentication on Linux and Windows.",
+        footerLink: [
+          {
+            name: "Tech: Python, HTTP Requests, Burp Suite, curl",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "LeetCode Dashboard",
+        projectDesc:
+          "Built a web dashboard to track and visualize LeetCode problem-solving progress through interactive charts and progress indicators. Integrated API-based stats, displayed solved counts by difficulty and submission activity, and designed a responsive frontend for monitoring DSA practice consistency.",
+        footerLink: [
+          {
+            name: "Tech: JavaScript, Chart.js, API Integration, HTML, CSS",
+            url: ""
+          }
+        ]
+      },
+      {
         projectName: "Home NAS Setup (Self-Hosted Infrastructure)",
         projectDesc:
           "Designed and configured a self-hosted NAS environment for personal storage and reliability. Worked with RAID concepts, file system management, and Linux-based configuration for stable day-to-day usage.",
