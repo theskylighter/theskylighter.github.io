@@ -21,7 +21,6 @@ const illustration = {
 
 const greeting = {
   username: "Shivam",
-  title: "Hi, I'm Shivam",
   subTitle: emoji(
     "Systems-focused Software Engineer 🚀 | AI undergraduate at MNIT Jaipur with a strong interest in cloud infrastructure, networking, and distributed systems. I enjoy understanding how systems work under the hood and building reliable, production-minded solutions."
   ),
@@ -182,83 +181,123 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const bigProjects = {
-  title: "Major Projects",
-  subtitle: "CLOUD, NETWORKING, SYSTEMS, AND APPLIED AI PROJECTS",
-  projects: [
-    {
-      projectName: "Driver Drowsiness Detection System",
-      projectDesc: "Built a real-time computer vision pipeline for fatigue detection using dlib's 68-point facial landmark model and Eye Aspect Ratio (EAR). Integrated live webcam processing and alerting for responsive detection.",
-      footerLink: [
-        {
-          name: "Tech: Python, OpenCV, dlib",
-          url: ""
-        }
-      ]
-    },
-    {
-      projectName: "Home NAS Setup (Self-Hosted Infrastructure)",
-      projectDesc: "Designed and configured a self-hosted NAS environment for personal storage and reliability. Worked with RAID concepts, file system management, and Linux-based configuration for stable day-to-day usage.",
-      footerLink: [
-        {
-          name: "Tech: Linux, Networking, Storage Config",
-          url: ""
-        }
-      ]
-    },
-    {
-      projectName: "CTF Competition Website Deployment",
-      projectDesc: "Deployed and operated a CTF competition website on an Azure VM for a club event serving around 100 participants. Managed VM provisioning, network security rules, Linux server setup, and event-ready hosting.",
-      footerLink: [
-        {
-          name: "Tech: Azure VM, Linux, Networking, Web Hosting",
-          url: ""
-        }
-      ]
-    },
-    {
-      projectName: "Personal VPN Setup (OpenVPN + Tailscale)",
-      projectDesc: "Built a personal VPN setup for secure remote access using both OpenVPN and Tailscale. Configured firewall rules, device connectivity, and self-hosted networking to enable reliable cross-device access.",
-      footerLink: [
-        {
-          name: "Tech: Azure, Linux, OpenVPN, Tailscale",
-          url: ""
-        }
-      ]
-    },
-    {
-      projectName: "Attendance Dashboard (Google Sheets API)",
-      projectDesc: "Built a frontend dashboard that consumes attendance data from the Google Sheets API and visualizes metrics through a speedometer-style interface. Implemented parsing logic and dynamic UI updates for real-time usability.",
-      footerLink: [
-        {
-          name: "Tech: JavaScript, Chart.js, Google Sheets API",
-          url: ""
-        }
-      ]
-    },
-    {
-      projectName: "Operator Precedence Parser with GUI",
-      projectDesc: "Developed a compiler design mini project implementing operator precedence parsing with a GUI. Included grammar input handling, precedence table generation, and interactive parsing visualization.",
-      footerLink: [
-        {
-          name: "Tech: Python, Tkinter",
-          url: ""
-        }
-      ]
-    },
-    {
-      projectName: "UDP Multicast/Broadcast Calculator",
-      projectDesc: "Implemented a UDP-based calculator service on Windows using multicast and broadcast communication. Resolved WinError 10065 through network-level debugging and improved the broadcast strategy for reliable communication.",
-      footerLink: [
-        {
-          name: "Tech: Python, Socket Programming",
-          url: ""
-        }
-      ]
-    }
-  ],
-  display: true // Set false to hide this section, defaults to true
-};
+const projectSections = [
+  {
+    title: "Major Projects",
+    subtitle:
+      "SELECTED PROJECTS WITH STRONG PRODUCT, ENGINEERING, AND SYSTEMS IMPACT",
+    projects: [
+      {
+        projectName: "ATS Resume Analyzer",
+        projectDesc:
+          "Built a resume analysis tool focused on ATS compatibility, helping evaluate resume structure, keyword relevance, and job-description alignment. Designed the workflow to surface actionable feedback for improving shortlisting outcomes.",
+        footerLink: [
+          {
+            name: "Tech: React, JavaScript, Resume Parsing",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "Google Drive Clone",
+        projectDesc:
+          "Developed a file storage and sharing platform inspired by Google Drive with support for file uploads, organized storage, and responsive UI interactions. Focused on delivering a familiar cloud-storage experience.",
+        footerLink: [
+          {
+            name: "Tech: React, Firebase, Cloud Storage",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "Driver Drowsiness Detection System",
+        projectDesc:
+          "Built a real-time computer vision pipeline for fatigue detection using dlib's 68-point facial landmark model and Eye Aspect Ratio (EAR). Integrated live webcam processing and alerting for responsive detection.",
+        footerLink: [
+          {
+            name: "Tech: Python, OpenCV, dlib",
+            url: ""
+          }
+        ]
+      }
+    ],
+    display: true
+  },
+  {
+    title: "Minor Projects",
+    subtitle:
+      "ADDITIONAL PROJECTS ACROSS INFRASTRUCTURE, NETWORKING, AND CORE COMPUTER SCIENCE",
+    projects: [
+      {
+        projectName: "Home NAS Setup (Self-Hosted Infrastructure)",
+        projectDesc:
+          "Designed and configured a self-hosted NAS environment for personal storage and reliability. Worked with RAID concepts, file system management, and Linux-based configuration for stable day-to-day usage.",
+        footerLink: [
+          {
+            name: "Tech: Linux, Networking, Storage Config",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "CTF Competition Website Deployment",
+        projectDesc:
+          "Deployed and operated a CTF competition website on an Azure VM for a club event serving around 100 participants. Managed VM provisioning, network security rules, Linux server setup, and event-ready hosting.",
+        footerLink: [
+          {
+            name: "Tech: Azure VM, Linux, Networking, Web Hosting",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "Personal VPN Setup (OpenVPN + Tailscale)",
+        projectDesc:
+          "Built a personal VPN setup for secure remote access using both OpenVPN and Tailscale. Configured firewall rules, device connectivity, and self-hosted networking to enable reliable cross-device access.",
+        footerLink: [
+          {
+            name: "Tech: Azure, Linux, OpenVPN, Tailscale",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "Attendance Dashboard (Google Sheets API)",
+        projectDesc:
+          "Built a frontend dashboard that consumes attendance data from the Google Sheets API and visualizes metrics through a speedometer-style interface. Implemented parsing logic and dynamic UI updates for real-time usability.",
+        footerLink: [
+          {
+            name: "Tech: JavaScript, Chart.js, Google Sheets API",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "Operator Precedence Parser with GUI",
+        projectDesc:
+          "Developed a compiler design mini project implementing operator precedence parsing with a GUI. Included grammar input handling, precedence table generation, and interactive parsing visualization.",
+        footerLink: [
+          {
+            name: "Tech: Python, Tkinter",
+            url: ""
+          }
+        ]
+      },
+      {
+        projectName: "UDP Multicast/Broadcast Calculator",
+        projectDesc:
+          "Implemented a UDP-based calculator service on Windows using multicast and broadcast communication. Resolved WinError 10065 through network-level debugging and improved the broadcast strategy for reliable communication.",
+        footerLink: [
+          {
+            name: "Tech: Python, Socket Programming",
+            url: ""
+          }
+        ]
+      }
+    ],
+    display: true
+  }
+];
 
 // Achievement Section
 // Include certificates, talks etc
@@ -370,7 +409,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  bigProjects,
+  projectSections,
   achievementSection,
   blogSection,
   talkSection,
