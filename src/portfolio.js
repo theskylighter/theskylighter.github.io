@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Shivam",
-  title: "Hi all, I'm Shivam",
+  title: "Hi, I'm Shivam",
   subTitle: emoji(
-    "Systems-Oriented Software Engineer 🚀 | AI Undergraduate at MNIT Jaipur. I enjoy breaking systems, understanding how they work internally, and rebuilding them better. Currently focused on DSA for SDE roles while actively exploring Cloud Infrastructure, Networking, and Distributed Systems."
+    "Systems-focused Software Engineer 🚀 | AI undergraduate at MNIT Jaipur with a strong interest in cloud infrastructure, networking, and distributed systems. I enjoy understanding how systems work under the hood and building reliable, production-minded solutions."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1jqw1eNX1UNU-Hxco5NEVb96B4fL_RZ6s/view?usp=sharing", // Set to empty to hide the button
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CLOUD EXPLORER | ALGORITHM ENTHUSIAST",
+  subTitle: "SOFTWARE ENGINEERING | CLOUD INFRASTRUCTURE | PROBLEM SOLVING",
   skills: [
     emoji(
-      "⚡ Build scalable systems with strong foundations in Data Structures & Algorithms"
+      "⚡ Build efficient software with strong foundations in data structures, algorithms, and core computer science concepts"
     ),
-    emoji("⚡ Deploy and manage applications on cloud infrastructure (Azure, Linux)"),
+    emoji("⚡ Deploy and manage applications on cloud infrastructure using Azure, Linux, and container-based workflows"),
     emoji(
-      "⚡ Explore networking, and self-hosted infrastructure"
+      "⚡ Work on networking, self-hosted infrastructure, and secure remote access setups"
     )
   ],
 
@@ -69,7 +69,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
@@ -81,42 +81,42 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "html-5",
+      skillName: "HTML5",
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "CSS3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "reactjs",
+      skillName: "React",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
     //   skillName: "aws",
     //   fontAwesomeClassname: "fab fa-aws"
-      skillName: "azure",
+      skillName: "Azure",
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
-      skillName: "git",
+      skillName: "Git",
       fontAwesomeClassname: "fab fa-git-alt"
     },
     
     {
-      skillName: "docker",
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "linux",
+      skillName: "Linux",
       fontAwesomeClassname: "fab fa-linux"
     }
   ],
@@ -133,12 +133,12 @@ const educationInfo = {
       logo: require("./assets/images/MNIT.png"),
       subHeader: "B.Tech in Artificial Intelligence",
       duration: "2023 - Present",
-      desc: "3rd Year",
+      desc: "Undergraduate focused on software engineering and systems",
       descBullets: [
-        "Data Structures & Algorithms (C++)",
-        "System Design fundamentals",
-        "Cloud & Infrastructure exploration (Azure, Linux, Docker)",
-        "Networking fundamentals"
+        "Data Structures & Algorithms using C++",
+        "Computer systems and system design fundamentals",
+        "Cloud infrastructure exposure with Azure, Linux, and Docker",
+        "Networking and distributed systems fundamentals"
       ]
     }
   ]
@@ -150,15 +150,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "DSA & Programming", //Insert stack or technology you have experience in
+      Stack: "Problem Solving & Data Structures", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Web Development (Frontend)",
+      Stack: "Frontend Development",
       progressPercentage: "75%"
     },
     {
-      Stack: "Cloud & Infrastructure",
+      Stack: "Cloud Infrastructure & Networking",
       progressPercentage: "70%"
     }
   ],
@@ -184,11 +184,11 @@ const openSource = {
 
 const bigProjects = {
   title: "Major Projects",
-  subtitle: "SYSTEMS & INFRASTRUCTURE EXPLORATION | AI & COMPUTER VISION",
+  subtitle: "CLOUD, NETWORKING, SYSTEMS, AND APPLIED AI PROJECTS",
   projects: [
     {
       projectName: "Driver Drowsiness Detection System",
-      projectDesc: "Real-time facial landmark detection using dlib's 68-point model and Eye Aspect Ratio (EAR) for fatigue detection. Integrated live webcam feed processing with alert system.",
+      projectDesc: "Built a real-time computer vision pipeline for fatigue detection using dlib's 68-point facial landmark model and Eye Aspect Ratio (EAR). Integrated live webcam processing and alerting for responsive detection.",
       footerLink: [
         {
           name: "Tech: Python, OpenCV, dlib",
@@ -198,7 +198,7 @@ const bigProjects = {
     },
     {
       projectName: "Home NAS Setup (Self-Hosted Infrastructure)",
-      projectDesc: "Built a personal Network Attached Storage system from scratch. Researched RAID concepts, managed file systems, and optimized configuration for stable home usage.",
+      projectDesc: "Designed and configured a self-hosted NAS environment for personal storage and reliability. Worked with RAID concepts, file system management, and Linux-based configuration for stable day-to-day usage.",
       footerLink: [
         {
           name: "Tech: Linux, Networking, Storage Config",
@@ -208,7 +208,7 @@ const bigProjects = {
     },
     {
       projectName: "CTF Competition Website Deployment",
-      projectDesc: "Deployed and configured a CTF competition website on an Azure VM for a club event with roughly 100 participants. Managed VM provisioning, inbound rules, Linux server setup, and production hosting for the event.",
+      projectDesc: "Deployed and operated a CTF competition website on an Azure VM for a club event serving around 100 participants. Managed VM provisioning, network security rules, Linux server setup, and event-ready hosting.",
       footerLink: [
         {
           name: "Tech: Azure VM, Linux, Networking, Web Hosting",
@@ -218,7 +218,7 @@ const bigProjects = {
     },
     {
       projectName: "Personal VPN Setup (OpenVPN + Tailscale)",
-      projectDesc: "Set up a personal VPN environment for secure remote access using both OpenVPN and Tailscale. Worked through firewall rules, client connectivity, and self-hosted networking across devices.",
+      projectDesc: "Built a personal VPN setup for secure remote access using both OpenVPN and Tailscale. Configured firewall rules, device connectivity, and self-hosted networking to enable reliable cross-device access.",
       footerLink: [
         {
           name: "Tech: Azure, Linux, OpenVPN, Tailscale",
@@ -228,7 +228,7 @@ const bigProjects = {
     },
     {
       projectName: "Attendance Dashboard (Google Sheets API)",
-      projectDesc: "Frontend API wrapper to fetch attendance data from Google Sheets and visualize percentage using speedometer-style UI. Implemented data parsing and dynamic visualization.",
+      projectDesc: "Built a frontend dashboard that consumes attendance data from the Google Sheets API and visualizes metrics through a speedometer-style interface. Implemented parsing logic and dynamic UI updates for real-time usability.",
       footerLink: [
         {
           name: "Tech: JavaScript, Chart.js, Google Sheets API",
@@ -238,7 +238,7 @@ const bigProjects = {
     },
     {
       projectName: "Operator Precedence Parser with GUI",
-      projectDesc: "Compiler design mini project implementing operator precedence parsing. Features grammar input, precedence table generation, and interactive parse tree visualization.",
+      projectDesc: "Developed a compiler design mini project implementing operator precedence parsing with a GUI. Included grammar input handling, precedence table generation, and interactive parsing visualization.",
       footerLink: [
         {
           name: "Tech: Python, Tkinter",
@@ -248,7 +248,7 @@ const bigProjects = {
     },
     {
       projectName: "UDP Multicast/Broadcast Calculator",
-      projectDesc: "Implemented multicast calculator service using UDP sockets on Windows. Resolved WinError 10065 through network-level debugging and broadcast approach optimization.",
+      projectDesc: "Implemented a UDP-based calculator service on Windows using multicast and broadcast communication. Resolved WinError 10065 through network-level debugging and improved the broadcast strategy for reliable communication.",
       footerLink: [
         {
           name: "Tech: Python, Socket Programming",
@@ -266,13 +266,13 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements 🏆 "),
   subtitle:
-    "Recognitions for technical contributions and competitive achievements",
+    "Highlights from technical competitions and problem-solving events",
 
   achievementsCards: [
     {
       title: "2nd Place — Capture The Flag (CTF)",
       subtitle:
-        "Secured 2nd position in the CTF organized by Infosec Club at Sphinx Fest, MNIT Jaipur. Demonstrated expertise in cybersecurity, vulnerability assessment, and problem-solving.",
+        "Placed 2nd in the CTF organized by the Infosec Club at Sphinx Fest, MNIT Jaipur. Demonstrated practical skills in cybersecurity, vulnerability analysis, and structured problem solving.",
       image: require("./assets/images/codeInLogo.webp"),
       imageAlt: "CTF Achievement",
       footerLink: [
@@ -291,14 +291,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Technical write-ups on systems, infrastructure, and learning journey",
+    "Technical writing on systems, infrastructure, and engineering learnings",
   displayMediumBlogs: "false", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "",
       title: "Coming Soon",
       description:
-        "Articles on distributed systems, cloud infrastructure, and DSA insights"
+        "Posts on distributed systems, cloud infrastructure, networking, and problem solving"
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -309,13 +309,13 @@ const blogSection = {
 const talkSection = {
   title: "TALKS",
   subtitle: emoji(
-    "Technical talks and presentations coming soon"
+    "Talks and presentations on systems, infrastructure, and engineering topics coming soon"
   ),
 
   talks: [
     {
       title: "Coming Soon",
-      subtitle: "Stay tuned for talks on systems and infrastructure",
+      subtitle: "Stay tuned for sessions on systems engineering and cloud infrastructure",
       slides_url: "",
       event_url: ""
     }
@@ -337,7 +337,7 @@ const podcastSection = {
 // Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Feel free to download my resume",
+  subtitle: "Download my resume for a detailed overview of my work and experience",
 
   // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
@@ -346,7 +346,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Let's discuss systems, infrastructure, or your next project. My Inbox is always open.",
+    "Open to discussing software engineering, infrastructure, backend systems, and collaboration opportunities.",
   number: "",
   email_address: "shiv.27india@gmail.com"
 };
