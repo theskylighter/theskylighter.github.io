@@ -334,7 +334,7 @@ const achievementSection = {
       title: "2nd Place — Capture The Flag (CTF)",
       subtitle:
         "Placed 2nd in the CTF organized by the Infosec Club at Sphinx Fest, MNIT Jaipur. Demonstrated practical skills in cybersecurity, vulnerability analysis, and structured problem solving.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/sphinx.png"),
       imageAlt: "CTF Achievement",
       footerLink: [
         {
