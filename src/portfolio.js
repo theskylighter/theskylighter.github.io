@@ -26,7 +26,7 @@ const greeting = {
     "Systems-Oriented Software Engineer 🚀 | AI Undergraduate at MNIT Jaipur. I enjoy breaking systems, understanding how they work internally, and rebuilding them better. Currently focused on DSA for SDE roles while actively exploring Cloud Infrastructure, Networking, and Distributed Systems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1jqw1eNX1UNU-Hxco5NEVb96B4fL_RZ6s/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1jqw1eNX1UNUNEVb96B4fL_RZ6s/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
