@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SYSTEMS-ORIENTED ENGINEER | CLOUD EXPLORER | ALGORITHM ENTHUSIAST",
+  subTitle: "CLOUD EXPLORER | ALGORITHM ENTHUSIAST",
   skills: [
     emoji(
       "⚡ Build scalable systems with strong foundations in Data Structures & Algorithms"
     ),
     emoji("⚡ Deploy and manage applications on cloud infrastructure (Azure, Linux)"),
     emoji(
-      "⚡ Explore distributed systems, networking, and self-hosted infrastructure"
+      "⚡ Explore networking, and self-hosted infrastructure"
     )
   ],
 
@@ -101,9 +101,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+    //   skillName: "aws",
+    //   fontAwesomeClassname: "fab fa-aws"
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-microsoft"
     },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -144,7 +151,7 @@ const techStack = {
   experience: [
     {
       Stack: "DSA & Programming", //Insert stack or technology you have experience in
-      progressPercentage: "85%" //Insert relative proficiency in percentage
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Web Development (Frontend)",
