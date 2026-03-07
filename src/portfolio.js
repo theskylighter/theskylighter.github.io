@@ -207,11 +207,21 @@ const bigProjects = {
       ]
     },
     {
-      projectName: "Azure VM Deployment + Web App Hosting",
-      projectDesc: "Deployed personal projects on Microsoft Azure VM with inbound port configuration, firewall management, and OpenVPN setup. Hands-on cloud provisioning and networking debugging.",
+      projectName: "CTF Competition Website Deployment",
+      projectDesc: "Deployed and configured a CTF competition website on an Azure VM for a club event with roughly 100 participants. Managed VM provisioning, inbound rules, Linux server setup, and production hosting for the event.",
       footerLink: [
         {
-          name: "Tech: Azure, Linux, Firewall, OpenVPN",
+          name: "Tech: Azure VM, Linux, Networking, Web Hosting",
+          url: ""
+        }
+      ]
+    },
+    {
+      projectName: "Personal VPN Setup (OpenVPN + Tailscale)",
+      projectDesc: "Set up a personal VPN environment for secure remote access using both OpenVPN and Tailscale. Worked through firewall rules, client connectivity, and self-hosted networking across devices.",
+      footerLink: [
+        {
+          name: "Tech: Azure, Linux, OpenVPN, Tailscale",
           url: ""
         }
       ]
